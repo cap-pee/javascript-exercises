@@ -1,9 +1,9 @@
 const reverseString = function(string) {
-    let newstring = '';
+    let newString = '';
     for (let i = -1; i >= -string.length; i--) {
-        newstring += string.at(i)
+        newString += string.at(i)
     }
-    return newstring
+    return newString
 };
 
 // Do not edit below this line
